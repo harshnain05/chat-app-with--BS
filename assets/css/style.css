@@ -20,36 +20,45 @@
 .bg-color {
     background: #1E71FF;
 }
-.pricing{
+
+.pricing {
     color: #2B353EB2;
 }
-.star-5{
+
+.star-5 {
     color: #2B353EB2;
 }
+
 .try-it-free {
     background: #FFFFFF33;
     border: 0;
     padding: 12px 24px;
     border-radius: 210px;
 }
-.try-it-free:hover{
+
+.try-it-free:hover {
     background: red;
 
- 
+
 }
-.color-team{
+
+.color-team {
     color: #2B353EB2;
 }
-.op-hover:hover{
+
+.op-hover:hover {
     opacity: 60%;
 }
-.margn-botton{
+
+.margn-botton {
     margin-bottom: 146px;
 }
-.padding-bottom{
+
+.padding-bottom {
     padding-bottom: 160px;
 }
-.mt-90{
+
+.mt-90 {
     margin-top: 90px;
 }
 
@@ -64,20 +73,23 @@
 
 .left {
     left: -80px;
-}.star-font{
+}
+
+.star-font {
     font-family: "Roboto", sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 29.11px;
-text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.11px;
+    text-align: left;
 
 }
-.font-span{
+
+.font-span {
     font-family: "Roboto", sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 29.11px;
-text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    text-align: left;
 
 }
 
@@ -88,13 +100,20 @@ text-align: left;
     line-height: 24.61px;
 
 }
+.min-vh-95{
+    min-height: 90vh !important;
+}
 
+.min-vh-60{
+    min-height: 90vh !important;
+}
 .font-roboto-500 {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
 }
+.card-word{justify-content: center;}
 
 .roboto-500-14 {
     font-family: "Roboto", sans-serif;
@@ -133,7 +152,7 @@ text-align: left;
     color: #1E71FF;
 }
 
-.mt-180{
+.mt-180 {
     margin-top: 100px;
     margin-bottom: 30px;
 }
@@ -144,7 +163,8 @@ text-align: left;
     padding: 15px 42px;
     border-radius: 60px;
 }
-.bg-none{
+
+.bg-none {
     background: none;
 }
 
@@ -160,8 +180,11 @@ text-align: left;
     border-bottom: 1px solid #2B353E26;
     max-width: 167px;
     margin-top: 90px;
+    margin-left: 90px;
+    padding-bottom: 50px;
 }
-.mb-60{
+
+.mb-60 {
     margin-bottom: 60px;
 }
 
@@ -172,13 +195,16 @@ text-align: left;
 .text-color {
     color: #2B353EB2;
 }
-.instant{
+
+.instant {
     color: #2B353E;
 }
-.lorem{
+
+.lorem {
     color: #2B353EB2;
 }
-.mb-12{
+
+.mb-12 {
     margin-bottom: 12px;
 }
 
@@ -194,7 +220,7 @@ text-align: left;
         width: 100%;
         height: 100%;
         justify-content: center;
-        background-color:#1E71FF;
+        background-color: #1E71FF;
         position: fixed !important;
         top: 0;
         right: -100%;
@@ -224,7 +250,8 @@ text-align: left;
     input[type="checkbox"]:checked~.navbar-items {
         right: 0;
     }
-    .star{
+
+    .star {
         flex-direction: column;
     }
 
@@ -258,8 +285,9 @@ text-align: left;
         font-size: 10px;
         line-height: 15px;
     }
-    .mt-180{
+
+    .mt-180 {
         margin-top: 20px;
     }
-    
+
 }
